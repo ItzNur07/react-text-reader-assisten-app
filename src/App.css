@@ -1,3 +1,35 @@
+.speech {
+  margin-top: 30px;
+}
+.group h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: dodgerblue;
+}
+.group textarea {
+  border: none;
+  outline: none;
+  border: 1px solid dodgerblue;
+  margin-bottom: 20px;
+}
+.group button {
+  text-align: center;
+  padding: 10px 20px;
+  display: inline-block;
+  width: 29%;
+  background-color: dodgerblue;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  color: #fff;
+  border-radius: 3px;
+  font-size: 17px;
+}
+.group button::hover {
+  background-color: rgb(1, 97, 194);
+}
+
 .App {
   text-align: center;
 }
